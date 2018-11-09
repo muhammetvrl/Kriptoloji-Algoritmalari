@@ -1,20 +1,10 @@
-var shuffleArray = function (arr) {
-    var newArr = arr.slice();
-    for (var i = newArr.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = newArr[i];
-        newArr[i] = newArr[j];
-        newArr[j] = temp;
-    }
-    return newArr;
-}
 
 var alfabe = 'a b c ç d e f g ğ h ı i j k l m n o ö p r s ş t u ü v y z';
 var alfabearr = alfabe.split(' ');
 
 
 console.log(alfabearr);
-var alfaberand=shuffleArray(alfabearr);
+var alfaberand=["ğ", "u", "k", "ç", "c", "n", "v", "ü", "ı", "l", "y", "b", "m", "g", "i", "z", "r", "s", "ö", "t", "f", "o", "p", "h", "j", "ş", "d", "e", "a"]
 console.log(alfaberand);
 
 
